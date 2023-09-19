@@ -1,0 +1,81 @@
+#header{
+    position: relative;
+    background-color: #FFF8EE;
+    logo{
+        width: 24%;
+        img{
+            width: 200px;
+        }
+    }
+    .menu{
+        width: 65%;
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                    padding: 25px 20px;
+                    display: inline-block;
+                    font-size: 18px;
+                    color: black;
+                    i{
+                        color: orange;
+                        vertical-align: -3px;
+                    }
+                }
+            }
+            .demos{
+                &:hover{
+                    .big-dropped{
+                        transform: translateY(0);
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+                .big-dropped{
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    background-color: #2E353E;
+                    width: 100%;
+                    justify-content: space-around;
+                    transform: translateY(20px);
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 0.3s ease-in-out;
+                    ul{
+                        li{
+                            a{
+                                padding: 15px;
+                                color: orange;
+                            }
+                        }
+                    }
+                    .dropped-2{
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+    .box-ico{
+        width: 7%;
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                    text-align: end;
+                    color: black;
+                    padding-left: 10px;
+                    i{
+                        color: orange;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import '_header.scss';
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 90%;
+    margin: auto;
+} 
+.list-unstyled{
+    list-style: none;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
